@@ -1,7 +1,7 @@
 {
   "name": "get-started",
-  "private": true,
-  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "lint": "eslint --quiet --fix --ext ts,tsx .",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
@@ -27,19 +27,18 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@vtex/intl-equalizer": "^2.5.0",
-    "@vtex/prettier-config": "^0.3.5",
-    "eslint": "^7.14.0",
-    "eslint-config-vtex": "^12.8.11",
-    "eslint-config-vtex-react": "^6.8.3",
-    "husky": "^8.0.3",
-    "lint-staged": "^10.5.1",
-    "prettier": "^2.2.0",
-    "typescript": "^3.9.6"
+    "@commitlint/cli": "^17.8.1",
+    "@commitlint/config-conventional": "^17.8.1",
+    "@vtex/intl-equalizer": "^2.5.1",
+    "@vtex/prettier-config": "^0.3.6",
+    "eslint": "^7.32.0",
+    "eslint-config-vtex": "^12.9.5",
+    "eslint-config-vtex-react": "^6.9.5",
+    "husky": "^9.0.11",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.8.8",
+    "typescript": "^3.9.10"
   },
-  "version": "1.0.0",
   "intl-equalizer": {
     "referenceLocale": "en",
     "localeDirectory": "messages"
