@@ -1,0 +1,6 @@
+{
+  "store.getStarted": {
+    "component": "Example",
+    "composition": "children"
+  }
+}
